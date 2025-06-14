@@ -5,7 +5,7 @@ import Cvv from "../assets/Cvv.pdf";
 
 export {
     myphoto,
-    myCV,
+    Mycv,
     logo,
     Cvv,
 }

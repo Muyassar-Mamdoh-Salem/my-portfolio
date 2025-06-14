@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { myCV, myphoto, Cvv } from '../../public/assets';
+import { Mycv, myphoto, Cvv } from '../../public/assets';
 import { MdEmail } from 'react-icons/md';
 import { GiSatelliteCommunication } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
@@ -52,7 +52,7 @@ const Header = () => {
                         </div>
                     </div>
                     {opencv && <div onClick={() => setOpencv(false)} className="fixed inset-0 flex justify-center items-center w-full z-[999] bg-[#0A0F1F] p-[10%] cursor-pointer">
-                            <img onClick={(e) => e.stopPropagation()} className='w-100 h-100 md:w-120 md:h-150 cursor-auto' src={myCV} alt="Image-Error" loading='lazy' />
+                            <img onClick={(e) => e.stopPropagation()} className='w-100 h-100 md:w-120 md:h-150 cursor-auto' src={Mycv} alt="Image-Error" loading='lazy' />
                     </div>}
                     <div className="flex justify-center items-center" data-aos="fade-left">
                         <img className='w-[80%] lg:w-[75%] xl:w-[60%] h-full z-10 shadow-2xl shadow-[#4A90E2] hover:shadow-[#FF6F91] rounded-3xl transition duration-500 cursor-pointer' src={myphoto} alt="Image-Error" loading='lazy' />

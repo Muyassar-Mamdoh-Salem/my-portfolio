@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { myCV, myphoto, Cvv } from '../../public/assets';
+import { Mycv, myphoto, Cvv } from '../../public/assets';
 import { MdEmail } from 'react-icons/md';
 import { GiSatelliteCommunication } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
