@@ -41,7 +41,7 @@ const App = () => {
           <span>E</span>
           <span>n</span>
           <span>g</span>
-          <span className='mx-2'>/</span>
+          <span className='mx-2'>ظ</span>
           <span>M</span>
           <span>u</span>
           <span>y</span>

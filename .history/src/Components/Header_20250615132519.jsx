@@ -62,10 +62,10 @@ const Header = () => {
                     <div className="text-white fixed bottom-5 z-100">
                         <div className="flex">
                             {downBar && <a href="https://www.linkedin.com/in/muyassar-mamdoh-308869301/"><FaLinkedin className='rounded-full text-end px-4 py-5 mb-2 mr-3 mt-5 ml-5 bg-gray-800 cursor-pointer' color='blue' size={65}/></a>}
-                            {downBar && <a href="mailto:myuassarmamdoh@gmail.com"><MdEmail className='rounded-full text-end px-4 py-5 mb-5 bg-gray-800 cursor-pointer' color='red' size={65}/></a>}
+                            {downBar && <a href="mailto:omar.k.0000000@gmail.com"><MdEmail className='rounded-full text-end px-4 py-5 mb-5 bg-gray-800 cursor-pointer' color='red' size={65}/></a>}
                         </div>
                         <div className="flex">
-                            {downBar && <a href="https://wa.me/201156403740"><FaWhatsapp className='rounded-full px-4 py-5 mr-8 bg-gray-800 cursor-pointer' color='green' size={65}/></a>}
+                            {downBar && <a href="https://api.whatsapp.com/send?phone=1006677452"><FaWhatsapp className='rounded-full px-4 py-5 mr-8 bg-gray-800 cursor-pointer' color='green' size={65}/></a>}
                             {!downBar ? <GiSatelliteCommunication onClick={() => setDowenBar(true)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65}/> :
                             <IoMdClose onClick={() => setDowenBar(false)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65}/>}
                         </div>

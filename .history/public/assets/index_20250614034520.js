@@ -1,5 +1,5 @@
 import myphoto from "./muyassar.png"
-import myCV from '../assets/Mycv.jpg';
+import myCV from '../assets/Mycv.p';
 import logo from "../assets/logo.png";
 import Cvv from "../assets/Cvv.pdf";
 
