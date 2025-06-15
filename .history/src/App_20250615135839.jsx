@@ -1,5 +1,5 @@
 import { useState , lazy, useEffect, Suspense } from 'react';
-import { createBrowserRouter , createRoutesFromElements , Route , RouterProvider , Outlet } from 'react-router';
+import { createBrowserRouter , createRoutesFromElements , Route , RouterProvider , Outlet } from 'react-router-dom';
 import { FadeLoader } from 'react-spinners';
 const Home = lazy (() => import ('./Pages/Home'));
 const Projects = lazy (() => import ('./Pages/Projects'));
@@ -27,7 +27,7 @@ const App = () => {
   },[])
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route>
+    
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
         <Route path='projects' element={<Projects/>}/>
