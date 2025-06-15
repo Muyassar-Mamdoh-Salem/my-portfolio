@@ -1,5 +1,5 @@
-import { useState, lazy, useEffect, Suspense } from 'react';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Outlet } from 'react-router-dom';
+import { useState , lazy, useEffect, Suspense } from 'react';
+import { createBrowserRouter , createRoutesFromElements , Route , RouterProvider , Outlet } from 'react-router-dom';
 import { FadeLoader } from 'react-spinners';
 import './App.css';
 
