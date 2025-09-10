@@ -39,6 +39,13 @@
     "img": "../assets/Screenshot (44).png",
     "live_demo": "https://shop-ease-seven-psi.vercel.app/",
     "githup": "https://github.com/Muyassar-Mamdoh-Salem/shop.git",
-    "description": "Reactjs,Redux ,Tailwindcss,Emailjs,Firebase , Formik , Yup"
+    "description": "Reactjs,Redux ,Tailwindcss,Emailjs,Firebase "
+  },
+  {
+    "id": 6,
+    "img": "../assets/Screenshot (94).png",
+    "live_demo": "https://appooinetment-app-frontend.vercel.app/",
+    "githup": "https://github.com/Muyassar-Mamdoh-Salem/appooinetment_app_frontend.git",
+    "description": "Next.js,Reactjs ,TailwindCss ,strapi ,kinde.js"
   }
 ]

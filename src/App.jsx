@@ -23,7 +23,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    },4000)
+    },1000)
   },[])
 
   const router = createBrowserRouter(createRoutesFromElements(
