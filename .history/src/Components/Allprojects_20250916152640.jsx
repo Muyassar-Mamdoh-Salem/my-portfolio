@@ -38,7 +38,7 @@ const Allprojects = () => {
                                     <img className='rounded mb-5' src={project.img} alt="Image-Error" loading='lazy' />
                                     <p className='text-white text-[15px] mb-5'>{project.description}</p>
                                     <div className="flex gap-3 ">
-                                        <a href={project.live_demo} target='_blanck'><button className="text-[#4A90E2] text-[13px] border-2 shadow-2xl shadow-[#4A90E2] border-[#4A90E2] hover:text-[#FF6F91] hover:border-[#FF6F91] hover:shadow-[#FF6F91] py-2 px-6 transition duration-500 cursor-pointer rounded-3xl ">Live Demo</button></a>
+                                        <a href={project.live_demo} target='_blanck'><button className="text-[#4A90E2] text-[12px] border-2 shadow-2xl shadow-[#4A90E2] border-[#4A90E2] hover:text-[#FF6F91] hover:border-[#FF6F91] hover:shadow-[#FF6F91] py-1 px-6 transition duration-500 cursor-pointer rounded-3xl mt-3">Live Demo</button></a>
                                         <a href={project.githup} target='_blanck'><button className="text-[#4A90E2] text-[13px] border-2 shadow-2xl shadow-[#4A90E2] border-[#4A90E2] hover:text-[#FF6F91] hover:border-[#FF6F91] hover:shadow-[#FF6F91] py-2 px-6 transition duration-500 cursor-pointer rounded-3xl">Githup Code</button></a>
                                     </div>
                                 </div>

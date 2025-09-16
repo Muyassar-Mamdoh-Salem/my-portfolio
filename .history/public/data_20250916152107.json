@@ -54,12 +54,12 @@
     "live_demo": "https://hossam-el-nuqrashy-9fn4.vercel.app/",
     "githup": "https://github.com/Muyassar-Mamdoh-Salem/Hossam_ElNuqrashy.git",
     "description": "Reactjs ,TailwindCss ,shadcn-ui ,react-router-dom"
-  },
+  }و
   {
-    "id": 8,
-    "img": "../public/assets/Screenshot (100).png",
-    "live_demo": "https://lava-burger.vercel.app/",
-    "githup": "https://github.com/Muyassar-Mamdoh-Salem/Lava-Burger.git",
+    "id": 7,
+    "img": "../assets/Screenshot (97).png",
+    "live_demo": "https://hossam-el-nuqrashy-9fn4.vercel.app/",
+    "githup": "https://github.com/Muyassar-Mamdoh-Salem/Hossam_ElNuqrashy.git",
     "description": "Reactjs ,TailwindCss ,shadcn-ui ,react-router-dom"
   }
 ]
