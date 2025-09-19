@@ -1,0 +1,4 @@
+# ملف robots.txt لتحسين السيو والفهرسة
+User-agent: *
+Allow: /
+Sitemap: https://my-portfolio-7ves.vercel.app/sitemap.xml

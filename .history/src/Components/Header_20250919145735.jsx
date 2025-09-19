@@ -37,7 +37,6 @@ const Header = () => {
                         <div data-aos="fade-right">
                             <h1 className='text-[45px] lg:text-[75px] xl:text-[95px] md:text-[55px] mb-0 words box'>انشاء مواقع وتطوير مواقع مع ميسر ممدوح | Muyassar Mamdoh Web Developer</h1>
                             <h2 className='text-[30px] lg:text-[55px] xl:text-[75px] md:text-[40px] mb-0 words box'>FRONTEND DEVELOPER</h2>
-                            <p className='text-white text-[18px] mt-6 max-w-xl'>هل تبحث عن <strong>انشاء مواقع</strong> أو <strong>تطوير مواقع</strong> احترافية؟ أنا <strong>ميسر ممدوح</strong> متخصص في تصميم وبرمجة مواقع الويب الحديثة والمتوافقة مع جميع الأجهزة. خبرة في تحسين السيو، سرعة الأداء، وتجربة المستخدم. تواصل معي الآن لتحصل على موقع يرفع من ظهورك في نتائج البحث على جوجل ويحقق أهدافك الرقمية.</p>
                             <div className="flex items-center gap-3 mt-10">
                                 <p className='text-white'>I am Muyassar</p>
                                 <span className='text-[#4A90E2] jop_name'>

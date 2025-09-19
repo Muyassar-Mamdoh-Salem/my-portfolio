@@ -35,7 +35,7 @@ const Allprojects = () => {
                         {projects.map(project => (
                             <div key={project.id} className="overflow-hidden">
                                 <div className="border-1 border-gray-600 p-7 md:p-5 rounded-2xl" data-aos="fade-dowen">
-                                    <img className='rounded mb-5' src={project.img} alt={project.title ? project.title + " project image" : "Project image"} loading='lazy' />
+                                    <img className='rounded mb-5' src={project.img} alt="Image-Error" loading='lazy' />
                                     <p className='text-white text-[15px] mb-5'>{project.description}</p>
                                     <div className="flex gap-3 ">
                                         {/* تحسين التباين: جعل النص أبيض على خلفية زرقاء أو وردية */}
