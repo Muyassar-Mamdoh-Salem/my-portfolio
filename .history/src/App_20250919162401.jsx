@@ -34,7 +34,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000); // 
+    }, 2000); // خليها ثانيتين مثلا عشان شاشة اللود تظهر كويس
   },[])
 
   const router = createBrowserRouter(createRoutesFromElements(
