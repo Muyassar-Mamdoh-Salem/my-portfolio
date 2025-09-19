@@ -23,7 +23,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    },1000)
+    },)
   },[])
 
   const router = createBrowserRouter(createRoutesFromElements(
@@ -40,8 +40,8 @@ const App = () => {
         <h1 className='name text-[40px] font-serif md:text-7xl '>
           <span>E</span>
           <span>n</span>
-          <span>g/</span>
-          <span className='mx-2'></span>
+          <span>g</span>
+          <span className='mx-2'>/</span>
           <span>M</span>
           <span>u</span>
           <span>y</span>

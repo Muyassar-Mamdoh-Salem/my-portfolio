@@ -9,17 +9,17 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const Header = () => {
-    const [downBar, setDowenBar] = useState(false);
-    const [opencv, setOpencv] = useState(false);
+    const [downBar , setDowenBar] = useState(false);
+    const [opencv , setOpencv] = useState(false);
     useEffect(() => {
-        if (opencv) {
+        if(opencv) {
             document.body.classList.add("overflow-hidden");
         }
         else
             document.body.classList.remove("overflow-hidden");
-        if (downBar)
-            setTimeout(() => setDowenBar(false), 5000)
-    }, [opencv, downBar])
+        if(downBar)
+            setTimeout(() => setDowenBar(false),5000)
+    },[opencv,downBar])
     // AOS
     useEffect(() => {
         Aos.init({
@@ -35,7 +35,7 @@ const Header = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="flex items-center">
                         <div data-aos="fade-right">
-                            <h1 className='text-[20px] lg:text-[25px] xl:text-[35px] md:text-[20px] mb-0 words box'>انشاء مواقع وتطوير مواقع مع ميسر ممدوح | Muyassar Mamdoh Web Developer</h1>
+                            <h1 className='text-[45px] lg:text-[75px] xl:text-[95px] md:text-[55px] mb-0 words box'>انشاء مواقع وتطوير مواقع مع ميسر ممدوح | Muyassar Mamdoh Web Developer</h1>
                             <h2 className='text-[30px] lg:text-[55px] xl:text-[75px] md:text-[40px] mb-0 words box'>FRONTEND DEVELOPER</h2>
                             <div className="flex items-center gap-3 mt-10">
                                 <p className='text-white'>I am Muyassar</p>
@@ -53,22 +53,22 @@ const Header = () => {
                         </div>
                     </div>
                     {opencv && <div onClick={() => setOpencv(false)} className="fixed inset-0 flex justify-center items-center w-full z-[999] bg-[#0A0F1F] p-[10%] cursor-pointer">
-                        <img onClick={(e) => e.stopPropagation()} className='w-100 h-100 md:w-120 md:h-150 cursor-auto' src={myCV} alt="Image-Error" loading='lazy' />
+                            <img onClick={(e) => e.stopPropagation()} className='w-100 h-100 md:w-120 md:h-150 cursor-auto' src={myCV} alt="Image-Error" loading='lazy' />
                     </div>}
                     <div className="flex justify-center items-center" data-aos="fade-left">
-                        <img className='w-[80%] lg:w-[75%] xl:w-[60%] z-10 shadow-2xl shadow-[#4A90E2] hover:shadow-[#FF6F91] rounded-3xl transition duration-500 cursor-pointer pr-4' src={myphoto} alt="Image-Error" loading='lazy' />
+                        <img className='w-[80%] lg:w-[75%] xl:w-[60%] h-full z-10 shadow-2xl shadow-[#4A90E2] hover:shadow-[#FF6F91] rounded-3xl transition duration-500 cursor-pointer pr-4' src={myphoto} alt="Image-Error" loading='lazy' />
                     </div>
                 </div>
                 <div className="flex justify-end">
                     <div className="text-white fixed bottom-5 z-100">
                         <div className="flex">
-                            {downBar && <a href="https://www.linkedin.com/in/muyassar-mamdoh-308869301/"><FaLinkedin className='rounded-full text-end px-4 py-5 mb-2 mr-3 mt-5 ml-5 bg-gray-800 cursor-pointer' color='blue' size={65} /></a>}
-                            {downBar && <a href="mailto:myuassarmamdoh@gmail.com"><MdEmail className='rounded-full text-end px-4 py-5 mb-5 bg-gray-800 cursor-pointer' color='red' size={65} /></a>}
+                            {downBar && <a href="https://www.linkedin.com/in/muyassar-mamdoh-308869301/"><FaLinkedin className='rounded-full text-end px-4 py-5 mb-2 mr-3 mt-5 ml-5 bg-gray-800 cursor-pointer' color='blue' size={65}/></a>}
+                            {downBar && <a href="mailto:myuassarmamdoh@gmail.com"><MdEmail className='rounded-full text-end px-4 py-5 mb-5 bg-gray-800 cursor-pointer' color='red' size={65}/></a>}
                         </div>
                         <div className="flex">
-                            {downBar && <a href="https://wa.me/201156403740"><FaWhatsapp className='rounded-full px-4 py-5 mr-8 bg-gray-800 cursor-pointer' color='green' size={65} /></a>}
-                            {!downBar ? <GiSatelliteCommunication onClick={() => setDowenBar(true)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65} /> :
-                                <IoMdClose onClick={() => setDowenBar(false)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65} />}
+                            {downBar && <a href="https://wa.me/201156403740"><FaWhatsapp className='rounded-full px-4 py-5 mr-8 bg-gray-800 cursor-pointer' color='green' size={65}/></a>}
+                            {!downBar ? <GiSatelliteCommunication onClick={() => setDowenBar(true)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65}/> :
+                            <IoMdClose onClick={() => setDowenBar(false)} className='rounded-full px-4 py-5 bg-gray-800 cursor-pointer' color='#4A90E2' size={65}/>}
                         </div>
                     </div>
                 </div>
