@@ -1,5 +1,4 @@
-# ملف robots.txt لتحسين SEO والفهرسة
-
+# robots.txt for SEO and Indexing
 User-agent: *
 Allow: /
 

@@ -35,8 +35,8 @@ const Header = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="flex items-center">
                         <div data-aos="fade-right">
-                            <h1 className='text-[20px] lg:text-[25px] xl:text-[35px] md:text-[20px] mb-0 words box'>انشاء مواقع وتطوير مواقع مع ميسر ممدوح | Muyassar Mamdoh Web Developer</h1>
-                            <h2 className='text-[30px] lg:text-[55px] xl:text-[75px] md:text-[40px] mb-0 words box'>FRONTEND DEVELOPER</h2>
+                            <h1 className='text-[20px] lg:text-[25px] xl:text-[35px] md:text-[20px] mb-0 words box'> Muyassar Mamdoh Web Developer</h1>
+            
                             <div className="flex items-center gap-3 mt-10">
                                 <p className='text-white'>I am Muyassar</p>
                                 <span className='text-[#4A90E2] jop_name'>
